@@ -83,6 +83,11 @@ header img {
 	clear: both;
 	display: block;
 }
+/* the styles for the main content */
+main {
+	clear: left;
+}
+
 /* the styles for the section */
 section {
 	width: 525px;
@@ -90,14 +95,10 @@ section {
 	padding: 0 20px 20px 20px;
 }
 section h1 {
-	font-size: 150%;
-	padding: .5em 0 .25em 0;
-	margin: 0;
-}
-section h2 {
 	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
 }
 section p {
 	padding-bottom: .5em;
@@ -111,29 +112,20 @@ section ul {
 }
 section li {
 	padding-bottom: .35em;
-	list-style: circle;
 }
 
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
-	padding-top: 0;
-}
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+	font-size: 115%;
+	padding: 0 0 .25em 0;
 }
 article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-}
-article a{
-	font-weight: normal;
 }
 
 /* the styles for the aside */
@@ -147,6 +139,7 @@ aside h2 {
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
+
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
